@@ -8,7 +8,7 @@ export 'src/list_format/list_format.dart';
 export 'src/list_format/list_format_options.dart';
 export 'src/options.dart';
 
-extension DatetimeFormatIntl4x on List<String> {
+extension ListFormatIntl4x on List<String> {
   String toLocaleFormat([Locale? locale]) =>
       Intl(locale: locale).listFormat().format(this);
 }

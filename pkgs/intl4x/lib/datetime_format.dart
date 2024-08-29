@@ -8,7 +8,7 @@ export 'src/datetime_format/datetime_format.dart';
 export 'src/datetime_format/datetime_format_options.dart';
 export 'src/options.dart';
 
-extension DatetimeFormatIntl4x on DateTime {
+extension DateTimeFormatIntl4x on DateTime {
   String toLocaleDateString([Locale? locale]) =>
       Intl(locale: locale).datetimeFormat().format(this);
 }
