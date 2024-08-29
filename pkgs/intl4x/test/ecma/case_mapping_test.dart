@@ -12,7 +12,7 @@ import '../utils.dart';
 
 void main() {
   testWithFormatting('test name', () {
-    const enUS = const Locale(language: 'en', region: 'US');
+    const enUS = Locale(language: 'en', region: 'US');
     expect('İstanbul'.toLocaleLowerCase(enUS), 'i̇stanbul');
     expect('ALPHABET'.toLocaleLowerCase(enUS), 'alphabet');
 

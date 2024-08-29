@@ -4,8 +4,8 @@
 
 import 'intl4x.dart';
 
-export 'intl4x.dart';
 export 'src/case_mapping/case_mapping.dart';
+export 'src/locale/locale.dart';
 
 extension CaseMappingWithIntl4X on String {
   String toLocaleLowerCase(Locale locale) =>
